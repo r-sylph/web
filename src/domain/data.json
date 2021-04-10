@@ -1,0 +1,35 @@
+{
+  "site": {
+    "profile": {
+      "name": "r-sylph/web"
+    }
+  },
+  "author": {
+    "profile": {
+      "name": "r-sylph",
+      "accounts": {
+        "sns": [
+          { "service": "Twitter", "url": "https://twitter.com/r_sylph" },
+          { "service": "Pixiv", "url": "http://pixiv.me/r-sylph" },
+          { "service": "RO丼", "url": "https://ro-mastodon.puyo.jp/@r_sylph" }
+        ],
+        "game": [
+          { "service": "Black Desert", "url": "https://www.jp.playblackdesert.com/Adventure/Profile?profileTarget=Tjn6E8k08ZjVwMVtBjvG4XI3Z0RmC%2fiVVYTVdDngQ5Rvq0%2fKKBnETRLhBiRPmrMLQcbngwPQAZJ0%2f4vMVqQfww4BpIptvosRUMAoTJwd5%2f8%3d" },
+          { "service": "Granblue Fantasy", "url": "http://game.granbluefantasy.jp/#profile/16309745" },
+          { "service": "Genshin", "url": "https://www.hoyolab.com/genshin/accountCenter/gameRecord?id=6437615" }
+        ],
+        "video": [
+          { "service": "Niconico", "url": "https://www.nicovideo.jp/user/906474" },
+          { "service": "Youtube", "url": "https://www.youtube.com/channel/UCGJhaHcBgHkKDh2ysUtwcuQ" }
+        ],
+        "audio": [
+          { "service": "Bandcamp", "url": "https://bandcamp.com/r-sylph" },
+          { "service": "SoundCloud", "url": "https://soundcloud.com/r-sylph" }
+        ],
+        "development": [
+          { "service": "Github", "url": "https://github.com/r-sylph" }
+        ]
+      }
+    }
+  }
+}
