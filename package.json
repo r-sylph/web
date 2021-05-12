@@ -1,6 +1,7 @@
 {
   "name": "web",
   "version": "0.0.1",
+  "private": true,
   "description": "r-sylph/web",
   "homepage": "https://github.com/r-sylph/web#readme",
   "bugs": {
@@ -10,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/r-sylph/web.git"
   },
+  "license": "UNLICENSED",
   "author": "r-sylph",
-  "scripts": {}
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }

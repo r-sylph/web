@@ -1,20 +1,22 @@
 :root {
-  --primary_background: hsl(220, 20%, 20%);
-  --primary_foreground: hsl(197, 30%, 70%);
-  --link_foreground: hsl(220, 80%, 80%);
-  --selection_background: hsla(220, 80%, 80%, 0.2);
-  --red: hsl(329, 75%, 65%);
-  --yellow: hsl(34, 75%, 65%);
-  --grnee: hsl(76, 75%, 65%);
-  --cyan: hsl(165, 75%, 65%);
-  --blue: hsl(231, 75%, 65%);
-  --magenta: hsl(268, 75%, 65%);
-  --red_bright: hsl(329, 95%, 80%);
-  --yellow_bright: hsl(34, 95%, 80%);
-  --grnee_bright: hsl(76, 95%, 80%);
-  --cyan_bright: hsl(165, 95%, 80%);
-  --blue_bright: hsl(231, 95%, 80%);
-  --magenta_bright: hsl(268, 95%, 80%);
+  --primary_background: #2d3043;
+  --primary_foreground: #bab5c0;
+
+  --link_foreground: #4d9aff;
+  --selection_background: #4d3455;
+
+  --blue_bright: #668dfa;
+  --blue: #4d9aff;
+  --cyan_bright: #0da6de;
+  --cyan: #39dbdb;
+  --grnee_bright: #daff47;
+  --grnee: #9fc729;
+  --magenta_bright: #dc8bdf;
+  --magenta: #9c70f5;
+  --red_bright: #c93b82;
+  --red: #f84f9e;
+  --yellow_bright: #ff9b29;
+  --yellow: #e4b72f;
 }
 
 ::selection {
@@ -32,39 +34,15 @@ a {
   color: var(--link_foreground);
 }
 
-.red {
-  color: var(--red);
-}
-.yellow {
-  color: var(--yellow);
-}
-.grnee {
-  color: var(--grnee);
-}
-.cyan {
-  color: var(--cyan);
-}
-.blue {
-  color: var(--blue);
-}
-.magenta {
-  color: var(--magenta);
-}
-.red_bright {
-  color: var(--red_bright);
-}
-.yellow_bright {
-  color: var(--yellow_bright);
-}
-.grnee_bright {
-  color: var(--grnee_bright);
-}
-.cyan_bright {
-  color: var(--cyan_bright);
-}
-.blue_bright {
-  color: var(--blue_bright);
-}
-.magenta_bright {
-  color: var(--magenta_bright);
-}
+.blue { color: var(--blue); }
+.blue_bright { color: var(--blue_bright); }
+.cyan { color: var(--cyan); }
+.cyan_bright { color: var(--cyan_bright); }
+.grnee { color: var(--grnee); }
+.grnee_bright { color: var(--grnee_bright); }
+.magenta { color: var(--magenta); }
+.magenta_bright { color: var(--magenta_bright); }
+.red { color: var(--red); }
+.red_bright { color: var(--red_bright); }
+.yellow { color: var(--yellow); }
+.yellow_bright { color: var(--yellow_bright); }
